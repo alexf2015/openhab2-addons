@@ -22,3 +22,4 @@ features/**/src/main/feature
 .vscode
 .factorypath
 *.jar
+/bundles/org.openhab.binding.nibeuplink/.svn
