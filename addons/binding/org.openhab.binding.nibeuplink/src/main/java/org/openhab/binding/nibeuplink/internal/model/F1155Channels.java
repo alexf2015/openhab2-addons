@@ -66,6 +66,14 @@ public final class F1155Channels extends BaseChannels {
             ChannelGroup.COMPRESSOR, ScaleFactor.DIV_10, SmartHomeUnits.HERTZ));
     public static final Channel CH_43123 = INSTANCE.addChannel(new QuantityChannel("43123", "Compr. current max.freq.",
             ChannelGroup.COMPRESSOR, ScaleFactor.DIV_10, SmartHomeUnits.HERTZ));
+    public static final Channel CH_40015 = INSTANCE.addChannel(new QuantityChannel("40015",
+            "EB100-EP14-BT10 Brine In Temperature", ChannelGroup.COMPRESSOR, ScaleFactor.DIV_10, SIUnits.CELSIUS));
+    public static final Channel CH_40016 = INSTANCE.addChannel(new QuantityChannel("40016",
+            "EB100-EP14-BT11 Brine Out Temperature", ChannelGroup.COMPRESSOR, ScaleFactor.DIV_10, SIUnits.CELSIUS));
+    public static final Channel CH_43437 = INSTANCE.addChannel(new QuantityChannel("43437",
+            "EP14-GP1 HM Pump Speed", ChannelGroup.COMPRESSOR, SmartHomeUnits.PERCENT));
+    public static final Channel CH_43439 = INSTANCE.addChannel(new QuantityChannel("43439",
+            "EP14-GP2 Brine Pump Speed", ChannelGroup.COMPRESSOR, SmartHomeUnits.PERCENT));
 
     // Airsupply
     public static final Channel CH_40025 = INSTANCE.addChannel(new QuantityChannel("40025", "BT20 Exhaust air temp. 1",
