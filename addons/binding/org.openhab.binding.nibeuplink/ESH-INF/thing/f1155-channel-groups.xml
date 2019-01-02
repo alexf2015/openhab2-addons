@@ -7,7 +7,6 @@
 		<label>General Channels</label>
 		<channels>
 			<channel id="44302" typeId="f1155-type-44302" />
-			<channel id="43439" typeId="f1155-type-43439" />
 		</channels>
 	</channel-group-type>
 	<channel-group-type id="f1155-compressor">
@@ -25,6 +24,7 @@
 			<channel id="43123" typeId="f1155-type-43123" />
 			<channel id="40015" typeId="f1155-type-40015" />
 			<channel id="40016" typeId="f1155-type-40016" />
+			<channel id="43439" typeId="f1155-type-43439" />
 		</channels>
 	</channel-group-type>
 	<channel-group-type id="f1155-airsupply">
