@@ -70,8 +70,6 @@ public final class F1155Channels extends BaseChannels {
             "EB100-EP14-BT10 Brine In Temperature", ChannelGroup.COMPRESSOR, ScaleFactor.DIV_10, SIUnits.CELSIUS));
     public static final Channel CH_40016 = INSTANCE.addChannel(new QuantityChannel("40016",
             "EB100-EP14-BT11 Brine Out Temperature", ChannelGroup.COMPRESSOR, ScaleFactor.DIV_10, SIUnits.CELSIUS));
-    public static final Channel CH_43437 = INSTANCE.addChannel(new QuantityChannel("43437",
-            "EP14-GP1 HM Pump Speed", ChannelGroup.COMPRESSOR, SmartHomeUnits.PERCENT));
     public static final Channel CH_43439 = INSTANCE.addChannel(new QuantityChannel("43439",
             "EP14-GP2 Brine Pump Speed", ChannelGroup.COMPRESSOR, SmartHomeUnits.PERCENT));
 

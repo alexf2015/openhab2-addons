@@ -7,7 +7,6 @@
 		<label>General Channels</label>
 		<channels>
 			<channel id="44302" typeId="f1155-type-44302" />
-			<channel id="43437" typeId="f1155-type-43437" />
 			<channel id="43439" typeId="f1155-type-43439" />
 		</channels>
 	</channel-group-type>
