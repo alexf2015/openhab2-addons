@@ -150,7 +150,7 @@ public class BaseChannels extends AbstractChannels {
     public static final Channel CH_48132 = INSTANCE
             .addChannel(new Channel("48132", "Temporary Lux", ChannelGroup.HOTWATER, "/Manage/2.1", "[01234]"));
     public static final Channel CH_47041 = INSTANCE
-            .addChannel(new Channel("47041", "Hot water mode", ChannelGroup.HOTWATER, "/Manage/2.2", "[012]"));
+            .addChannel(new Channel("47041", "Hot water mode", ChannelGroup.HOTWATER, "/Manage/2.2", "[0124]"));
     public static final Channel CH_47045 = INSTANCE.addChannel(new QuantityChannel("47045",
             "Start temperature HW Economy", ChannelGroup.HOTWATER, ScaleFactor.DIV_10, SIUnits.CELSIUS));
     public static final Channel CH_47049 = INSTANCE.addChannel(new QuantityChannel("47049",
