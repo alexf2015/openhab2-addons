@@ -196,7 +196,6 @@ Available channels depend on the specific heatpump model. Following models/chann
 | Channel Type ID  | Item Type            | Min    | Max     | Writable | Description                           | Allowed Values (write access) |
 |------------------|----------------------|--------|---------|----------|---------------------------------------|-------------------------------|
 | general#44302    | Number:Energy        | 0      | 9999999 | No       | Heat Meter - Cooling Cpr EP14         |                               |
-| general#43437    | Number:Dimensionless | 0      | 100     | No       | EP14-GP1 HM Pump Speed                |                               |
 | general#43439    | Number:Dimensionless | 0      | 100     | No       | EP14-GP2 Brine Pump Speed             |                               |
 | compressor#43424 | Number:Time          | 0      | 9999999 | No       | Tot. HW op.time compr. EB100-EP14     |                               |
 | compressor#43420 | Number:Time          | 0      | 9999999 | No       | Tot. op.time compr. EB100-EP14        |                               |
