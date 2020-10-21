@@ -353,10 +353,13 @@ public class EventListener {
 
             @Override
             public void run() {
+                final ScheduledFuture<?> subscriptionScheduler = EventListener.this.subscriptionScheduler;
                 while (eventNameIter.hasNext()) {
                     subscribe(eventNameIter.next());
                 }
-                subscriptionScheduler.cancel(true);
+                if (subscriptionScheduler != null && !subscriptionScheduler.isCancelled()) {
+                    subscriptionScheduler.cancel(true);
+                }
             }
         }, 0, SUBSCRIBE_DELAY, TimeUnit.MILLISECONDS);
     }
